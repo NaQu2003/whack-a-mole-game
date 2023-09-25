@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <h1> <span class="score">Score: 0</span> <span class="info">Odśwież strone aby zmienić level</span>
+            <span class="timer">Time Left: NaN</span></h1>
+        <div class="grid">
+            <div class="square" id='1'></div>
+            <div class="square" id='2'></div>
+            <div class="square" id='3'></div>
+            <div class="square" id='4'></div>
+            <div class="square" id='5'></div>
+            <div class="square" id='6'></div>
+            <div class="square" id='7'></div>
+            <div class="square" id='8'></div>
+            <div class="square" id='9'></div>
+            <div class="square" id='10'></div>
+            <div class="square" id='11'></div>
+            <div class="square" id='12'></div>
+            <div class="square" id='13'></div>
+            <div class="square" id='14'></div>
+            <div class="square" id='15'></div>
+        </div>
+        <div class="buttons">
+                <button class="btn easy" onclick="changeLevel(750)"> Easy</button>
+                <button class="btn normal"onclick="changeLevel(500)">Normal</button>
+                <button class="btn hard" onclick="changeLevel(400)" >Hard</button>
+                <button class="btn impossible"onclick="changeLevel(350)">Anime protagonist level</button>
+                
+        </div>
+ 
+        <script src="index.js" async defer></script>
+    </body>
+</html>

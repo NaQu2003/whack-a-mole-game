@@ -1,0 +1,51 @@
+body{
+    min-height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.grid{
+    display:grid;
+    width:1000px;
+    grid-template-columns: repeat(5,1fr)
+}
+.square{
+    margin:5px;
+    width:200px;
+    height:200px;
+    border:1px solid black;
+}
+.mole{
+    background-image: url('mole.jpg');
+    background-size:contain;
+    background-repeat: no-repeat;
+
+}
+h1{
+    position: absolute;
+    top:0px;
+    margin-left:50px;
+    width:1000px;
+    display:flex;
+    justify-content: space-between;
+}
+
+.buttons{
+    position: absolute;
+    bottom:10px;
+}
+.btn{
+    width:200px;
+    padding:8px;
+    margin-right:10px;
+    background-color:black;
+    color:white;
+    font-weight: 700;
+    font-size:16px;
+    border:none;
+    cursor:pointer;
+}
+.btn:hover{
+    background-color:rgb(41, 40, 40);
+    color:white;
+}
